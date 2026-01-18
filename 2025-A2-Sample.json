@@ -1,0 +1,111 @@
+{
+  "Nodes": [
+    {
+      "Id": "A",
+      "X": 705,
+      "Y": 253
+    },
+    {
+      "Id": "B",
+      "X": 916,
+      "Y": 242
+    },
+    {
+      "Id": "C",
+      "X": 787,
+      "Y": 393
+    },
+    {
+      "Id": "D",
+      "X": 1520,
+      "Y": 294
+    },
+    {
+      "Id": "E",
+      "X": 1022,
+      "Y": 528
+    },
+    {
+      "Id": "F",
+      "X": 218,
+      "Y": 441
+    },
+    {
+      "Id": "G",
+      "X": 214,
+      "Y": 161
+    },
+    {
+      "Id": "H",
+      "X": 1069,
+      "Y": 77
+    }
+  ],
+  "Edges": [
+    {
+      "FromId": "A",
+      "ToId": "B",
+      "Weight": 211
+    },
+    {
+      "FromId": "A",
+      "ToId": "C",
+      "Weight": 162
+    },
+    {
+      "FromId": "B",
+      "ToId": "C",
+      "Weight": 199
+    },
+    {
+      "FromId": "D",
+      "ToId": "E",
+      "Weight": 550
+    },
+    {
+      "FromId": "E",
+      "ToId": "F",
+      "Weight": 809
+    },
+    {
+      "FromId": "F",
+      "ToId": "G",
+      "Weight": 280
+    },
+    {
+      "FromId": "G",
+      "ToId": "H",
+      "Weight": 859
+    },
+    {
+      "FromId": "D",
+      "ToId": "H",
+      "Weight": 500
+    },
+    {
+      "FromId": "B",
+      "ToId": "D",
+      "Weight": 606
+    },
+    {
+      "FromId": "C",
+      "ToId": "E",
+      "Weight": 271
+    },
+    {
+      "FromId": "A",
+      "ToId": "F",
+      "Weight": 522
+    },
+    {
+      "FromId": "A",
+      "ToId": "G",
+      "Weight": 500
+    },
+    {
+      "FromId": "B",
+      "ToId": "H",
+      "Weight": 225
+    }
+  ]
+}
